@@ -1,0 +1,73 @@
+* 
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body 
+{
+    background: #111;
+      
+}
+.box
+ {
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 350px;
+    height: 150px;
+    width: 150px;
+    color: rgb(218, 133, 22);
+    font-size: 20px;
+    align-items: center;
+    background: rgb(132, 234, 243);
+    border-radius: 50%;
+    animation: animate 10s linear infinite;
+}
+@keyframes animate {
+
+    0%
+    {
+        filter: hue-rotate(0deg);
+        transform: rotate(90deg);
+    }
+    100%
+    {
+        filter: hue-rotate(90deg);
+        transform: rotate(0deg);
+    }
+    
+}
+.inset
+ {
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 150px;
+    height: 200px;
+    width: 17500px;
+    align-items: center;
+    color: rgb(14, 82, 59);
+    background: rgb(75, 235, 208);
+    border-radius: 50%;
+    animation: animate 9s linear infinite;
+    
+}
+@keyframes animate {
+
+    0%
+    {
+        filter: hue-rotate(0deg);
+        transform: rotate(360deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+        transform: rotate(0deg);
+    }
+
+    h2
+    {
+} 
